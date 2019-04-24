@@ -20,7 +20,7 @@ services:
       MYSQL_PASSWORD: ifp
       MYSQL_DATABASE: ifp
     ports:
-      - "8889:3306"
+      - "3306:3306"
 
   pma_phptraining:
     image: 'phpmyadmin/phpmyadmin'
